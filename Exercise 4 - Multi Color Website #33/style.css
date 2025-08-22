@@ -1,0 +1,25 @@
+    
+ :root {
+            --color: yellow;
+            --seccolor: blue;
+            --defpad: 25px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            background-color: var(--seccolor);
+            
+        }
+        ul {
+            display: flex;
+            color: var(--color);
+            
+        }
+         ul li {
+            list-style: none;
+            border: 2px solid var(--color);
+            padding: var(--defpad);
+            
+        }

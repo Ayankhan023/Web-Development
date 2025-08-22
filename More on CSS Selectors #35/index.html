@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boxes:first-child {
+            background-color: blue;
+        }
+         /* .boxes::first-line {
+            color: yellow;
+         } */
+         /* .boxes * { color: blue;
+        border: 2px solid black;} */
+        /* p, a, .box, [data-color-primary]
+        { padding-top: 45px;} */
+        .boxes::before { content:" hello I am ayan khan";
+        color: red;}
+        .boxes::after { content:"This is end";}
+        ::selection {background-color: black;
+        color: aqua;}
+        .box::first-letter {color: peru;
+        font-size: 45px;}
+        input::placeholder {
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">I am a first box</div>
+        <div class="box">Hey I am a box</div>
+        <div class="box">Hey I am also a box</div>
+        <input type="text" name="username" id="" placeholder="enter username here">
+    </div>
+    
+</body>
+</html>
