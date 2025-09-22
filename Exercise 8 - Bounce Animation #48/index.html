@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: blue;
+            height: 70vh;
+            width: 80vw;
+            display: flex;
+            align-items: flex-end;
+            
+        }
+        .circle {
+            background-color: red;
+            height:90px ;
+            width:95px ;
+            border-radius: 70px;
+            animation: Bounceball 1.7s linear infinite alternate  ;
+            
+        }
+        @keyframes Bounceball {
+            0% {transform: translate(0px, 0px);}
+            20% {transform: translate(200px,-180px);}
+            40% {transform:translate(400px,-0px) ;}
+            60% {transform: translate(600px,-180px);}
+            80% {transform: translate(800px,0px);}
+            
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circle"></div>
+    </div>
+    
+</body>
+</html>
