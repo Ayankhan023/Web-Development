@@ -1,0 +1,14 @@
+#box {
+    background-color: dodgerblue;
+    height: 250px;
+    width: 100px;
+    color: white;
+    border: 1px solid black;
+}
+.para {
+    color: purple;
+}
+
+.newClass {
+    background-color: green;
+}
